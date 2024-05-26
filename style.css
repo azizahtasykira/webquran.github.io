@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/earlyaccess/amiri.css);
+.amiri { font-family: 'Amiri', serif; }
+
+main {
+    margin-top: 1rem;
+}
+
+body {
+    background-color: rgb(255, 190, 201);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-custom {
+    background-color: rgb(161, 192, 254);
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    color: white;
+}
+
+.list-group-item {
+    background-color: pink;
+    border-color: rgb(161, 192, 254);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: black;
+    padding: 10px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.list-group-item:hover {
+    background-color: rgb(161, 192, 254);
+    color: white;
+}
+
+#text-arabic {
+    background-color: rgb(161, 192, 254);
+    border: 2px solid rgb(161, 192, 254);
+    border-radius: 5px;
+    padding: 1rem;
+    color: black;
+    max-height: 70vh; 
+    overflow-y: auto; 
+}
+
+footer {
+    background-color: rgb(161, 192, 254);
+    color: white;
+    padding: 0.5rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+#audio-selector {
+    background-color: rgb(255, 192, 203);
+    color: black;
+    padding: 8px;
+    border: 1px solid rgb(161, 192, 254);
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    outline: none;
+}
+
+#audio-selector option {
+    background-color: white;
+    color: black;
+}
+
+#audio-selector option:hover {
+    background-color: lightpink;
+}
+
+.row + .row {
+    margin-top: 1rem;
+}
+
+.star-icon {
+    display: inline-flex;
+    align-items: center;
+}
+
+.star-icon i {
+    margin-right: 5px;
+}
+
+#daftar-surah {
+    max-height: 70vh;
+    overflow-y: auto;
+}
+
+.star-icon {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+}
+
+.star-icon i.fa-star {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 0.5em;
+}
+
+.highlight {
+    background-color: rgb(255, 192, 203);
+    border-radius: 5px;
+}
